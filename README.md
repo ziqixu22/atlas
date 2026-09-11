@@ -116,9 +116,7 @@ Looking only at counts would suggest growth; looking at share reveals a decline 
 For each year $t$, demographic groups can be ranked by enrollment count or share:
 
 $$
-\text{Rank}_{t,g}
-=
-\operatorname{rank}\left(-X_{t,g}\right).
+\text{Rank}_{t,g}=\mathrm{rank}\left(-X_{t,g}\right).
 $$
 
 A lower numerical rank corresponds to a larger group. Tracking rank over time makes it easy to see when groups overtake one another even if all groups are growing in absolute terms.
